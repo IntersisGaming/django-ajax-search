@@ -1,27 +1,27 @@
-django-ajax-search
+Django AJAX SEARCH ENGINE
 ===================
 
-A customizable AJAX-powered search for Django.
+A customizable AJAX-powered search engine for Django.
 
-Features
+FEATURES
 -----------------------------------
 
 - Works with the latest jQuery library version
 - Displays instant search results as you type
 
 
-Installation Requirements
+INSTALLATION REQUIREMENTS
 -----------------------------------
 
 - Python 2.6 or Python 2.7
 - `Django <http://www.djangoproject.com/>`_ >= 1.3
 - `jQuery <http://jquery.com/>`_ >= 1.4.4
 
-To install::
+To Install::
     
     easy_install django-ajax-search
 
-Next add `ajax-search` to your `INSTALLED_APPS` to include the related css/js::
+Next Add `ajax search` To Your `INSTALLED_APPS` To Include The Related css/js::
 
     INSTALLED_APPS = (
         'django.contrib.staticfiles',
@@ -33,16 +33,16 @@ The jQuery and jQuery UI libraries are not included in the distribution but must
 in your templates. See the example project for an example using these libraries from the
 Google CDN.
 
-Once installed you should add the urls to your root url patterns::
+Once Installed You Should Add The Urls To Your Root Url Patterns::
 
     urlpatterns = patterns('',
         # Other patterns go here
         url(r'^ajax-search/',include('ajax-search.urls')),
     )
 
-Full documentation at http://django-ajax-search.readthedocs.org/
+Full Documentation At http://django-ajax-search.readthedocs.org/
 	
-Additional Help/Support
+ADDITIONAL HELP AND SUPPORT
 -----------------------------------
 
-You can find additional help or support on the mailing list: http://groups.google.com/group/django-ajax-search
+You Can Find Additional Help Or Support On The Mailing List: http://groups.google.com/group/django-ajax-search
